@@ -38,13 +38,15 @@ swaraj_testing_driver/
 ├── kernel/
 │   ├── swaraj_testing.c
 │   └── queue_ioctl.h
+│   └── Makefile
 ├── user/
 │   ├── configurator.c
 │   ├── filler.c
 │   ├── reader.c
 │   └── queue_ioctl.h
-├── Makefile
-└── run_all.sh
+│   └── Makefile
+└── .gitignore
+└── README.md
 ```
 
 ## Requirements
