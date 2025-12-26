@@ -1,0 +1,42 @@
+# Kernel build files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+.*.cmd
+.tmp_versions/
+
+# User-space binaries
+configurator
+filler
+reader
+
+# Scripts (optional)
+run_all.sh
+
+# Build directories
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/*.symvers
+kernel/*.order
+kernel/.*.cmd
+kernel/.tmp_versions/
+
+# Logs
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Archives
+*.tar
+*.gz
+
